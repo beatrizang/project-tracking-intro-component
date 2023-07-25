@@ -1,0 +1,25 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu__item{
+    margin-left: 2rem;
+}
+.menu__item:hover{
+    text-decoration: underline;
+}
+
+.menu__item__login{
+    color: var(--dark-grayish-blue);
+    margin-left: 5rem;
+}
